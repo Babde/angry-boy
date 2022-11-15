@@ -1,3 +1,17 @@
+// START
+
+window.onload = function alert() {
+
+    let name = prompt("C'est quoi ton petit nom ?");
+
+    let space = document.getElementById("news");
+
+    space.innerHTML = "Bonjour " + name + ", tapes sur Joel et vois ce qu'il se passe...!";
+
+    space.classList = 'animated';
+
+}  
+
 
 // VARIABLES 
 
