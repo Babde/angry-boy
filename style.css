@@ -10,7 +10,7 @@ body{
     margin: 0;
     padding: 0;
     text-align: center;
-    background-image: url(image/fond.png);
+    background-image: url(../angry-boy/image/fond.png);
     background-size: cover;
     height: 100vh;
     overflow: hidden;
@@ -140,12 +140,10 @@ p{
 
 @keyframes pluiepierre{
     from{
-        transform: translateY(-210%);
-        transform: rotate(0deg);
+        transform: translateY(-210%) rotate(0deg);
     }
     to{
-        transform: translateY(150vh);
-        transform: rotate(180deg);
+        transform: translateY(150vh) rotate(180deg);
     }
 }
 
