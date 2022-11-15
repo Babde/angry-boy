@@ -49,6 +49,10 @@ h2{
     font-size: 15px;
 }
 
+h5{
+    margin: 0 auto;
+}
+
 /* BOUTON  */
 
 #multiplier, #autoclickerCTA{
