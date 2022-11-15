@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='icon' href='image/favicon-32x32.png' type='image/x-icon' />
+    <title>Little Angry Boy</title>
+
+    <!-- feuille css -->
+    <link rel="stylesheet" href="script.css"> 
+
+    <!-- font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poiret+One&display=swap" rel="stylesheet">
+
+    
+
+</head>
+<body>
+    <button id="musique" class="onoff" onclick="onoff(this)"><div>off</div></button>
+    <section id="en-tete">
+        <h1>Little Angry Boy</h1>
+        <p>Tapes sur Joël pour voir ce qu'il se passe...</p>
+    </section>
+    <section>
+        <div id="affichage" class="affichage">Score : 0</div>
+    </section>
+    <section>
+        <div>
+            <img src="image/1.png" alt="phase une" id="joel">
+        </div>
+        <div id="options" class="flex-container">
+            <div>
+                <div class="container flex-container">
+                    <div class="prixMulti">
+                        <h2>Multiplier price</h2>
+                        <p class="prix">10</p>
+                    </div>
+                    <div class="nombreMulti">
+                        <h2>Multiplied by</h2>
+                      <p class="compteur">x 1</p>
+                    </div>
+                </div>
+                <button type="button" id="multiplier" name="multiplier">Multiplicateur</button>
+            </div>
+            <div>
+                <div class="container flex-container">
+                    <div class="prixMulti" id="auto">
+                        <h2>Auto-clicker price</h2>
+                        <p class="prixAutoClicker">20</p>
+                    </div>
+                    <div class="nombreMulti">
+                        <h2>Nombre</h2>
+                      <p class="combienAC">x 1</p>
+                    </div>
+                </div>
+                <button type="button" id="autoclickerCTA" name="autoclicker">Auto-clicker</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
