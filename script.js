@@ -52,6 +52,8 @@ let images = [
     { mouseup: "image/3.PNG", mousedown: "image/3.2.PNG", min: 100, max: 200 },
     { mouseup: "image/4.png", mousedown: "image/4.2.png", min: 200, max: 300 },
     { mouseup: "image/5.png", mousedown: "image/5.2.png", min: 300, max: 400 },
+    { mouseup: "image/6.png", mousedown: "image/6.2.png", min: 400, max: 500 },
+    { mouseup: "image/7.png", mousedown: "image/7.2.png", min: 500, max: 600 },
 ];
 
 
