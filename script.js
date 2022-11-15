@@ -224,7 +224,7 @@ function phrasesRandom () {
 }
 setInterval( () => {
     document.querySelector("#phrase").innerHTML = phrasesRandom()
-}, 1000); 
+}, 5000); 
 
 
 
