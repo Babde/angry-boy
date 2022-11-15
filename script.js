@@ -47,9 +47,9 @@ function sourisEnHaut() {
 }
 
 let images = [
-    { mouseup: "image/1.png", mousedown: "image/1.2.png", min: 0, max: 50 },
-    { mouseup: "image/2.png", mousedown: "image/2.2.png", min: 50, max: 100 },
-    { mouseup: "image/3.png", mousedown: "image/3.2.png", min: 100, max: 200 },
+    { mouseup: "image/1.png", mousedown: "image/1.2.PNG", min: 0, max: 50 },
+    { mouseup: "image/2.png", mousedown: "image/2.2.PNG", min: 50, max: 100 },
+    { mouseup: "image/3.PNG", mousedown: "image/3.2.PNG", min: 100, max: 200 },
     { mouseup: "image/4.png", mousedown: "image/4.2.png", min: 200, max: 300 },
     { mouseup: "image/5.png", mousedown: "image/5.2.png", min: 300, max: 400 },
 ];
