@@ -217,7 +217,8 @@ function pluiePierre() {
 const textes = ["Aïe aïe aïe !!!", "Ma philosophie c’est d’ignorer le problème jusqu’à ce que j’en sois complètement débarrassé.", "Magnifique démonstration de ce qui saute aux yeux", "J’ai les mains faites pour l’or, et elles sont dans la merde !", "J’ai dégusté son foie avec des fèves au beurre et un excellent Chianti", "Luke, je suis ton père…", "Les cons ça ose tout. C’est même à ça qu’on les reconnait", "Je sais que tu peux te battre, mais c’est ton esprit qui fait de toi un homme.", "On est venu, on a vu et il l’a eu dans le cul !", "Houston on a un problèm", "Que la Force soit avec toi.", "Chers amis, Milady, que cette journée demeure comme celle où vous avez failli capturer le capitaine Jack Sparrow.", " Vous aimez souffrir ? Essayez de porter un corset.", "Merci Émile, vous me retirez une fière chandelle du pied.", "Une route se ferme, une autre s’ouvre.", "Déshonneur sur toi, déshonneur sur ta famille, déshonneur sur ta vache", "Ça suffit! J'en ai assez de ta constipation émotionnelle!", "N'oubliez pas de me rappeler de vous pulvériser après mon rendez vous"];
 
 function phrasesRandom () {
-    Math.trunc(Math.random()*textes.length);
+    Aleatoire = Math.trunc(Math.random()*textes.length);
+    textesAleatoire = textes[Aleatoire];
 }
 
 document.querySelector("#phrase").innerHTML = setInterval(phrasesRandom,1000); 
