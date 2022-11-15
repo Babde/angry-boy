@@ -1,0 +1,159 @@
+/* BASE  */
+
+html{
+    font-family: 'Poiret One', cursive;;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url(../cookies_clicker/image/fond.png);
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+img{
+    margin-top: 3%;
+    width: 20%;
+    justify-content: center;
+}
+
+/* CLASS FONCTIONNELLE */
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgba(245, 245, 220, 0.718);
+    border-radius: 20px;
+    padding: 0 15px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    align-items: center;
+}
+
+/* TITRE  */
+h1{
+    font-family: 'Fredoka One', cursive;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 15px;
+}
+
+/* BOUTON  */
+
+#multiplier, #autoclickerCTA{
+    background-color: rgb(3, 91, 120);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+    opacity: 0;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border: 2px solid rgba(2, 151, 12, 0);
+}
+
+button:hover{
+    background-color: white;
+    color: rgb(3, 91, 120);
+    border: 2px solid rgb(3, 91, 120);
+}
+
+#musique
+{
+  width:32px;
+  height:32px;
+  padding:1px 2px 3px 3px;	
+  font-size:12px;
+  background:lightgray;
+  cursor: pointer;	
+  border-radius: 50px;	
+  border: 0.5px solid rgb(94, 94, 94);
+  margin-top: 5px;
+  
+}
+#musique div
+{
+  /* width:18px;
+  height:18px;
+  min-height:18px;	 */
+  background:lightgray;
+  overflow:hidden;
+  color:gray;
+  text-transform: uppercase;
+  font-size: 10px;
+  justify-content: center;
+  border-style: none;
+  border-radius: 50px;	
+}
+
+/* CURSEUR */
+
+#joel:hover{
+
+    cursor: pointer;
+}
+
+/* MAIN  */
+
+#en-tete p{
+   font-weight: bold;
+}
+
+#affichage{
+    font-weight: bold;
+    color: rgb(3, 91, 120);
+    font-size: 30px;
+    font-family: 'Fredoka One', cursive;
+}
+
+p{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#auto{
+    margin: 0 auto;
+}
+
+/* ANIMATION */
+
+.pierre {
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: pluiepierre 4s linear 0s normal;
+    transform: translateY(-50vh);
+    width: 150px;
+}
+
+@keyframes pluiepierre{
+    from{
+        transform: translateY(-210%);
+        transform: rotate(0deg);
+    }
+    to{
+        transform: translateY(150vh);
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes defile {
+    from {background-position: 0px 0px;}
+    to {background-position: 1920px 0px;}
+}
+
+body {
+    animation: defile 30s linear infinite;
+}
